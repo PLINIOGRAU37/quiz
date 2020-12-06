@@ -47,15 +47,15 @@ function ejercicio1(){
     function obtenerImporteConImpuestos(precio,producto) {
         switch (producto) {
             case 1:
-            impuesto = Number(1.21);
+            impuesto = Number(21.100);
             break;
     
             case 2:
-            impuesto = Number(1.1);
+            impuesto = Number(10.100);
             break;
     
             case 3:
-            impuesto = Number(1.05);
+            impuesto = Number(5.100);
             break;
     
             default:
